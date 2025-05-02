@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alexander Fitzsimons – Designer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
+<body class="work-page">
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span>Alexander Fitzsimons</span>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <!-- About dropdown -->
+          <li class="dropdown">
+            <a href="index.html">About</a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html#about">About Me</a></li>
+              <li><a href="index.html#explore-work">Work Section</a></li>
+            </ul>
+          </li>
+  
+          <!-- Work dropdown -->
+          <li class="dropdown">
+            <a href="work.html">Work</a>
+            <ul class="dropdown-menu">
+              <li><a href="work.html#project1">Light Rail Safety Campaign</a></li>
+              <li><a href="work.html#project2">Golf Park Brand Identity</a></li>
+            </ul>
+          </li>
+  
+          <!-- Process dropdown -->
+          <li class="dropdown">
+            <a href="process.html">Process</a>
+            <ul class="dropdown-menu">
+              <li><a href="process.html#objective">Portfolio Objective &amp; Message</a></li>
+              <li><a href="process.html#reflection">Reflection</a></li>
+              <li><a href="process.html#review">Reading Review</a></li>
+              <li><a href="process.html#ethics">Design Ethics</a></li>
+              <li><a href="process.html#indigenous">Indigenous Practice</a></li>
+            </ul>
+          </li>
+  
+          <!-- Skills & Experience dropdown -->
+          <li class="dropdown">
+            <a href="skills.html">Skills &amp; Experience</a>
+            <ul class="dropdown-menu">
+              <li><a href="skills.html#hero-skills">Design Skills</a></li>
+              <li><a href="skills.html#skill-grid">Software Skill</a></li>
+              <li><a href="skills.html#experience">Experience</a></li>
+            </ul>
+          </li>
+  
+          <!-- Contact dropdown -->
+          <li class="dropdown">
+            <a href="contact.html">Get in Touch</a>
+            <ul class="dropdown-menu">
+              <li><a href="mailto:designsbyaleko@gmail.com">Email Me</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  <section  class="hero-contact">
+    <div class="hero-container">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>Get In Touch</h1>
+          <p>Reach out via email or through my socials. Here, ready to help!
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="images\Images_hero-25.png" alt="Alexander Fitzsimons">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-container">
+      
+      <!-- Left Info Panel -->
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>Got a project or idea</p>
+        <p>Email me anytime:</p>
+        <a href="mailto:designsbyaleko@gmail.com">designsbyaleko@gmail.com</a>
+      </div>
+  
+      <!-- Right Form Panel -->
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Contact Number</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <!-- Math question field -->
+      <label for="math">What’s 5 + 3?</label>
+      <input type="text" id="math" name="math" required>
+
+      <button type="submit">Send Message</button>
+      <div id="form-status" class="form-status"></div>
+    </form>
+  
+    </div>
+  </section>
+  
+  
+
+  <!-- Footer -->
+ <footer class="site-footer-contact">
+   <div class="footer-wrapper">
+
+     <!-- Left Section -->
+     <div class="footer-panel left-panel">
+      <a href="index.html" class="footer-logo">
+        <span>Alexander Fitzsimons | u3309443</span>
+        
+      </a>
+    
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="process.html">Process</a></li>
+      </ul>
+    </div>
+
+     <!-- Right Section -->
+     <div class="footer-panel right-panel">
+       <h2>Connect</h2>
+       <ul>
+        <li><a href="skills.html">Skills & Experience</a></li>
+        <li><a href="contact.html">Get in Touch</a></li>
+         
+         <li class="social-icons">
+          <a href="https://www.instagram.com/designsbyaleko/"  target="_blank" rel="noopener noreferrer"> <img src="images/Artboard%206_1.png" alt="Instagram"></a>
+           <a href="https://www.linkedin.com/in/alexander-fitzsimons-2873a2363/"  target="_blank"  rel="noopener noreferrer"><img src="images/Artboard%206.png" alt="LinkedIn"></a> 
+         </li>
+       </ul>
+     </div>
+ 
+   </div>
+ </footer>
+</body>
+</html>
